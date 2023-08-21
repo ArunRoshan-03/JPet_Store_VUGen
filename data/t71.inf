@@ -1,0 +1,11 @@
+[t71]
+FileName1=t71.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/048fda70-9f3f-4282-8974-c2bbe32b44f5
+Total=1
+RequestHeaderFile=t71_RequestHeader.txt
+RequestBodyFile=t71_RequestBody.txt
+ResponseHeaderFile=t71_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_71.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

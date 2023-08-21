@@ -1,0 +1,836 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-telemetry-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "date",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "binary/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/ocsp-response"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 24,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Aug-21-2023",
+    "RecordingDuration": 470828,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1692623894,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 132774,
+    "TotalBytesSent": 43264,
+    "TotalRequests": 60,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "octoperf.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "49.12.128.248",
+          "IncludeInScript": true,
+          "Name": "petstore.octoperf.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 1124,
+              "HttpStatus": 200,
+              "Size": 4503,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 172,
+              "EventId": 1122,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://petstore.octoperf.com/actions/Account.action?signoff="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 1118,
+              "HttpStatus": 200,
+              "Size": 5017,
+              "URL": "https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 1114,
+              "HttpStatus": 200,
+              "Size": 4316,
+              "URL": "https://petstore.octoperf.com/actions/Order.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 1110,
+              "HttpStatus": 200,
+              "Size": 5174,
+              "URL": "https://petstore.octoperf.com/actions/Order.action?newOrderForm="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 157,
+              "EventId": 1106,
+              "HttpStatus": 200,
+              "Size": 4418,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-16"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 1090,
+              "HttpStatus": 200,
+              "Size": 3562,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-16"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 1088,
+              "HttpStatus": 200,
+              "Size": 3861,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FL-DLH-02"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 1083,
+              "HttpStatus": 200,
+              "Size": 12767,
+              "URL": "https://petstore.octoperf.com/images/cat1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 1080,
+              "HttpStatus": 200,
+              "Size": 3502,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 266,
+              "EventId": 1075,
+              "HttpStatus": 200,
+              "Size": 3387,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1071,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "https://petstore.octoperf.com/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 1067,
+              "HttpStatus": 200,
+              "Size": 4730,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 1065,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://petstore.octoperf.com/actions/Account.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 1040,
+              "HttpStatus": 200,
+              "Size": 3622,
+              "URL": "https://petstore.octoperf.com/actions/Account.action;jsessionid=373541FDAA6FA4D360035D9893FD4AD7?signonForm="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 171,
+              "EventId": 1022,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "https://petstore.octoperf.com/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 1020,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "https://petstore.octoperf.com/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 1018,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "https://petstore.octoperf.com/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 157,
+              "EventId": 1016,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "https://petstore.octoperf.com/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1014,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://petstore.octoperf.com/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 1012,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "https://petstore.octoperf.com/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1008,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "https://petstore.octoperf.com/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1006,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "https://petstore.octoperf.com/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1004,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://petstore.octoperf.com/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 171,
+              "EventId": 1002,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "https://petstore.octoperf.com/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 1000,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "https://petstore.octoperf.com/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 998,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "https://petstore.octoperf.com/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 974,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "https://petstore.octoperf.com/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 968,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "https://petstore.octoperf.com/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 963,
+              "HttpStatus": 200,
+              "Size": 5119,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 908,
+              "HttpStatus": 404,
+              "Size": 762,
+              "URL": "https://petstore.octoperf.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 892,
+              "HttpStatus": 200,
+              "Size": 5680,
+              "URL": "https://petstore.octoperf.com/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 171,
+              "EventId": 875,
+              "HttpStatus": 200,
+              "Size": 1155,
+              "URL": "https://petstore.octoperf.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": true,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 391,
+              "EventId": 959,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/048fda70-9f3f-4282-8974-c2bbe32b44f5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 329,
+              "EventId": 952,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/41021e9e-472e-40f5-afb4-5346a7b2e46b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 945,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/cff5d26f-4af4-4a71-910a-2f8167a46614"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 360,
+              "EventId": 938,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/544c1b31-77b9-4b74-8b70-6cf83716e87b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 282,
+              "EventId": 927,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/f94c0dbf-7601-4cca-8905-44b3785e0728"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 917,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/967ed797-e178-4b2a-b82d-294faac26fa2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 901,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/9202a7f7-615b-4109-91fc-cb52fa2c6cdb"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": true,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 63,
+              "EventId": 862,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2364%20(x64)/ISET:SSE4_2,MEM:7847/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.160.144.191",
+          "IncludeInScript": true,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 47,
+              "EventId": 854,
+              "HttpStatus": 200,
+              "Size": 5348,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-09-19-11-14-05.chain"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.65.55",
+          "IncludeInScript": true,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 912,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": true,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 858,
+              "HttpStatus": 200,
+              "Size": 939,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": true,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 1096,
+              "HttpStatus": 200,
+              "Size": 1974,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 218,
+              "EventId": 836,
+              "HttpStatus": 200,
+              "Size": 1974,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lencr.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "49.44.194.34",
+          "IncludeInScript": true,
+          "Name": "r3.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 934,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 312,
+              "EventId": 896,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 281,
+              "EventId": 842,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 266,
+              "EventId": 839,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 281,
+              "EventId": 834,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 297,
+              "EventId": 830,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 63,
+              "EventId": 813,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": true,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1038,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 1024,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 772,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 719,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.195.38.76",
+          "IncludeInScript": true,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 890,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 63,
+              "EventId": 885,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 141,
+              "EventId": 852,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 10
+}

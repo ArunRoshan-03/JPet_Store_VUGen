@@ -1,0 +1,17 @@
+[t1]
+FileName1=t1.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=4
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t1_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+FileName3=t1_remote-settings.content-signature.mozilla.org-2023-09-19-11-14-05.html
+URL3=https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-09-19-11-14-05.chain
+FileName4=t1_threatListUpdates_fetch.html
+URL4=https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARCWoRIaAhgFQ14N3CICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPfsDBoCGAXQXw7TIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQtOMMGgIYBeoI8DQiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD5sg0aAhgFHUyTMCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECEaAhgFRMpiUiICIAIoAQ==
+[ProtocolInfo]
+ProtocolId=QTWeb

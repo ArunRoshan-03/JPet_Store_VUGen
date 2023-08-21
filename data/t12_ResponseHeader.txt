@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 4858
+Cache-Control: max-age=600
+Content-Type: application/ocsp-response
+Date: Mon, 21 Aug 2023 13:18:33 GMT
+Last-Modified: Mon, 21 Aug 2023 11:57:35 GMT
+Server: ECAcc (sgb/C720)
+X-Cache: HIT
+Content-Length: 5
+

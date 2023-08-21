@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/361df62c-8909-41ce-8477-6fcf6aae13b4
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=t32_RequestBody.txt
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_32.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
