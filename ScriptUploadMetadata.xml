@@ -27,9 +27,28 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="WebSocketBuffer.h" Filter="2" />
     <FileEntry Name="WebSocketCB.c" Filter="2" />
+    <FileEntry Name="p_country.dat" Filter="2" />
+    <FileEntry Name="p_address.dat" Filter="2" />
+    <FileEntry Name="p_city.dat" Filter="2" />
+    <FileEntry Name="p_firstname.dat" Filter="2" />
+    <FileEntry Name="p_lastname.dat" Filter="2" />
+    <FileEntry Name="p_state.dat" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
+    <FileEntry Name="Watches.xml" Filter="2" />
     <FileEntry Name="p_username.dat" Filter="2" />
     <FileEntry Name="combined_jpet_store_application.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
+    <FileEntry Name="116437577440.idx" Filter="1" />
+    <FileEntry Name="168860359440.idx" Filter="1" />
+    <FileEntry Name="17183574440.idx" Filter="1" />
+    <FileEntry Name="236452981440.idx" Filter="1" />
+    <FileEntry Name="23645298144_8Il.781.idx" Filter="1" />
+    <FileEntry Name="23645298144_B8k.357.idx" Filter="1" />
+    <FileEntry Name="23645298144_Efz.73.idx" Filter="1" />
+    <FileEntry Name="23645298144_WGF.213.idx" Filter="1" />
+    <FileEntry Name="58687408440.idx" Filter="1" />
+    <FileEntry Name="71487228440.idx" Filter="1" />
     <FileEntry Name="76762228440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -41,8 +60,8 @@
     <FileEntry Name="jpet_store_application.prm.bak" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
-    <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
@@ -50,9 +69,12 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="sigin_credentails.dat" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="User_details.dat" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

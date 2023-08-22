@@ -35,17 +35,23 @@
 </div>
 
 <div id="Menu">
-<div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="img_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif" /> 
-	<a href="/actions/Account.action?signonForm=">Sign In</a>
-   <img align="middle" src="../images/separator.gif" /> <a
+<div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="img_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif" />  
+	
+ 
+	
+		<a href="/actions/Account.action?signoff=">Sign Out</a>
+		<img align="middle" src="../images/separator.gif" />
+		<a href="/actions/Account.action?editAccountForm=">My Account</a>
+	
+ <img align="middle" src="../images/separator.gif" /> <a
 	href="../help.html">?</a></div>
 </div>
 
 <div id="Search">
 <div id="SearchContent"><form method="post" action="/actions/Catalog.action">
-	<input size="14" name="keyword" type="text" />
+	<input size="14" name="keyword" type="text" value="Tiger Shark" />
 	<input name="searchProducts" type="submit" value="Search" />
-<div style="display: none;"><input type="hidden" name="_sourcePage" value="cilO2MSnuyLIuI2O2qmCRfvQ5odlT2JWxpl9jlLrT_XP0RbL59WKxP76NrC6UNjItRIsWWGWC1vYlR6pwDF6JpVEO_QqGFmS" /><input type="hidden" name="__fp" value="unSpAoKSJfoiGHBt3s2O5rjK7wmXMez9euIhWMiidBSGPKvrGpkucAWE-5X_uU-Y" /></div></form></div>
+<div style="display: none;"><input type="hidden" name="_sourcePage" value="CHeuNp80sPUYxhptopnHZmQUSBj7PshxuC86A4CwTum4LFY7dKdwGJIxQ6wiIOiqJ_LpGAT8M7SadIRIJZPyyvV7SZFL-RUHQPy-gg-f68k=" /><input type="hidden" name="__fp" value="D7IYBAWoOxz1gpWoKTplJWvW8Jffkza94xkCbsuEz-C7aH9zbtPRiRdZbjxnuPOB" /></div></form></div>
 </div>
 
 <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></a></div>
@@ -54,46 +60,74 @@
 
 <div id="Content">
 
-<div id="Welcome">
-<div id="WelcomeContent"></div>
-</div>
+<div id="Catalog"><form method="post" action="/actions/Order.action">
 
-<div id="Main">
-<div id="Sidebar">
-<div id="SidebarContent"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><img src="../images/fish_icon.gif" /></a> <br />
-Saltwater, Freshwater <br />
-<a href="/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/dogs_icon.gif" /></a> <br />
-Various Breeds <br />
-<a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img src="../images/cats_icon.gif" /></a> <br />
-Various Breeds, Exotic Varieties <br />
-<a href="/actions/Catalog.action?viewCategory=&amp;categoryId=REPTILES"><img src="../images/reptiles_icon.gif" /></a> <br />
-Lizards, Turtles, Snakes <br />
-<a href="/actions/Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/birds_icon.gif" /></a> <br />
-Exotic Varieties</div>
-</div>
+	<table>
+		<tr>
+			<th colspan=2>Payment Details</th>
+		</tr>
+		<tr>
+			<td>Card Type:</td>
+			<td><select name="order.cardType">
+				<option value="Visa" selected="selected">Visa</option><option value="MasterCard">MasterCard</option><option value="American Express">American Express</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Card Number:</td>
+			<td><input name="order.creditCard" type="text" value="999 9999 9999 9999" /> * Use a fake
+			number!</td>
+		</tr>
+		<tr>
+			<td>Expiry Date (MM/YYYY):</td>
+			<td><input name="order.expiryDate" type="text" value="12/03" /></td>
+		</tr>
+		<tr>
+			<th colspan=2>Billing Address</th>
+		</tr>
 
-<div id="MainImage">
-<div id="MainImageContent">
-  <map name="estoremap">
-	<area alt="Birds" coords="72,2,280,250"
-		href="Catalog.action?viewCategory=&categoryId=BIRDS" shape="RECT" />
-	<area alt="Fish" coords="2,180,72,250"
-		href="Catalog.action?viewCategory=&categoryId=FISH" shape="RECT" />
-	<area alt="Dogs" coords="60,250,130,320"
-		href="Catalog.action?viewCategory=&categoryId=DOGS" shape="RECT" />
-	<area alt="Reptiles" coords="140,270,210,340"
-		href="Catalog.action?viewCategory=&categoryId=REPTILES" shape="RECT" />
-	<area alt="Cats" coords="225,240,295,310"
-		href="Catalog.action?viewCategory=&categoryId=CATS" shape="RECT" />
-	<area alt="Birds" coords="280,180,350,250"
-		href="Catalog.action?viewCategory=&categoryId=BIRDS" shape="RECT" />
-  </map> 
-  <img height="355" src="../images/splash.gif" align="middle"
-	usemap="#estoremap" width="350" /></div>
-</div>
+		<tr>
+			<td>First name:</td>
+			<td><input name="order.billToFirstName" type="text" value="ABC" /></td>
+		</tr>
+		<tr>
+			<td>Last name:</td>
+			<td><input name="order.billToLastName" type="text" value="XYX" /></td>
+		</tr>
+		<tr>
+			<td>Address 1:</td>
+			<td><input size="40" name="order.billAddress1" type="text" value="901 San Antonio Road" /></td>
+		</tr>
+		<tr>
+			<td>Address 2:</td>
+			<td><input size="40" name="order.billAddress2" type="text" value="MS UCUP02-206" /></td>
+		</tr>
+		<tr>
+			<td>City:</td>
+			<td><input name="order.billCity" type="text" value="Palo Alto" /></td>
+		</tr>
+		<tr>
+			<td>State:</td>
+			<td><input size="4" name="order.billState" type="text" value="CA" /></td>
+		</tr>
+		<tr>
+			<td>Zip:</td>
+			<td><input size="10" name="order.billZip" type="text" value="94303" /></td>
+		</tr>
+		<tr>
+			<td>Country:</td>
+			<td><input size="15" name="order.billCountry" type="text" value="USA" /></td>
+		</tr>
 
-<div id="Separator">&nbsp;</div>
-</div>
+		<tr>
+			<td colspan=2><input name="shippingAddressRequired" type="checkbox" value="true" />
+			Ship to different address...</td>
+		</tr>
+
+	</table>
+
+	<input name="newOrder" type="submit" value="Continue" />
+
+<div style="display: none;"><input type="hidden" name="_sourcePage" value="c3E3mhoFRnQvH1Y2gDCYletuDDU42vZ-JReveX30qbUAdQhEhjsuLgMRoJTHPOaDiApUnQMkl6_2ZcGsR0DleRqlPV5j8YOpT9ZSRcfFe48=" /><input type="hidden" name="__fp" value="x1sPKooG_v-5q25S_aFT0rdv8p1kl0txMKYouhoBAmO9naYFrfaLX4PNZW735j4ziCVtGC5cFiJZ_lI6ZdoS28aDzKY4plnrDOdFpH6F8f757cUDjZSozg==" /></div></form></div>
 
 
 </div>
@@ -103,10 +137,15 @@ Exotic Varieties</div>
 <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>
 </div>
 
-<div id="Banner"></div>
+<div id="Banner">
+	
+		
+          <image src="../images/banner_dogs.gif">
+        
+	
+</div>
 
 </div>
 
 </body>
 </html>
-

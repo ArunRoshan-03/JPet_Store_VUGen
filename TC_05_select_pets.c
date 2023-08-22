@@ -22,14 +22,26 @@ lr_start_transaction("TC_05_select_pets");
 		"Scope=Body",
 		LAST);
 
+/*Correlation comment - Do not change!  Original value='Manx' Name ='C_pet_name' Type ='Manual'*/
+	web_reg_save_param_ex(
+		"ParamName=C_pet_name",
+		"LB=/td>\n\t\t\t<td>",
+		"RB=<",
+		"Ordinal=All",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		LAST);
+
 	web_url("Catalog.action_2", 
-		"URL=https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS", 
+		"URL=https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId={P_Random_pet_categories}", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=https://petstore.octoperf.com/actions/Catalog.action", 
 		"Snapshot=t76.inf", 
 		"Mode=HTML", 
 		LAST);
+		random_pet_name=lr_paramarr_random("C_pet_name");
+		lr_param_sprintf("P_random_pet_name","%s",random_pet_name);
 lr_end_transaction("TC_05_select_pets", LR_AUTO);
 
 	return 0;

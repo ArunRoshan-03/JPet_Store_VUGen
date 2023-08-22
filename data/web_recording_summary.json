@@ -832,5 +832,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": true
   },
-  "NumberOfCorrelations": 10
+  "NumberOfCorrelations": 7
 }

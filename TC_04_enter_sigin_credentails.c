@@ -2,6 +2,18 @@ TC_04_enter_sigin_credentails()
 {
 	lr_start_transaction("TC_04_enter_sigin_credentails");
 
+/*Correlation comment - Do not change!  Original value='BIRDS' Name ='C_pet_name' Type ='Manual'*/
+	web_reg_save_param_ex(
+		"ParamName=C_pet_categories",
+		"LB=categoryId=",
+		"RB=\" shape",
+		"Ordinal=All",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=Yes",
+		"RequestUrl=*/Catalog.action*",
+		LAST);
+
 	web_submit_data("Account.action",
 		"Action=https://petstore.octoperf.com/actions/Account.action",
 		"Method=POST",
@@ -16,6 +28,8 @@ TC_04_enter_sigin_credentails()
 		"Name=_sourcePage", "Value={C_sourcePage}", ENDITEM,
 		"Name=__fp", "Value={C_fp}", ENDITEM,
 		LAST);
+		random_pet_categories=lr_paramarr_random("C_pet_categories");
+		lr_param_sprintf("P_Random_pet_categories","%s",random_pet_categories);	
 	lr_end_transaction("TC_04_enter_sigin_credentails", LR_AUTO);
 
 	return 0;

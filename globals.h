@@ -12,6 +12,8 @@
 
 //--------------------------------------------------------------------
 // Global Variables
-
-
+char *random_pet_categories;
+char *random_pet_name;
+char *random_iteam_id;
+char *C_product_Id;
 #endif // _GLOBALS_H

@@ -2,6 +2,7 @@ TC_02_click_store()
 {
 
 	lr_think_time(26);
+	web_set_max_html_param_len("8192");
 	lr_start_transaction("TC_02_click_store");
 
 /*Correlation comment - Do not change!  Original value='373541FDAA6FA4D360035D9893FD4AD7' Name ='jsessionid' Type ='Manual'*/
@@ -23,6 +24,6 @@ TC_02_click_store()
 		"Mode=HTML", 
 		LAST);
 	lr_end_transaction("TC_02_click_store", LR_AUTO);
-
+	
 	return 0;
 }

@@ -1,9 +1,8 @@
 HTTP/2.0 200
 Status: 200
-date: Mon, 21 Aug 2023 14:52:32 GMT
+date: Tue, 22 Aug 2023 15:02:31 GMT
 content-type: text/html;charset=UTF-8
-content-length: 5119
-set-cookie: JSESSIONID=536C73BF1C7400854B2369C89B700532; Path=/; HttpOnly
+content-length: 5021
 content-language: en
 strict-transport-security: max-age=15724800; includeSubDomains
 

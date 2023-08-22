@@ -6,10 +6,18 @@
                 "stepId": "STEP1",
                 "stepName": "Url: petstore.octoperf.com",
                 "infFile": "t1.inf",
-                "time": 1692629551882
+                "time": 1692716543555
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_01_launch",
+                "rawStartTime": 1692716542254,
+                "rawEndTime": 1692716543557,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10354018211364746
+            }
+        ]
     },
     {
         "actionName": "TC_02_click_store",
@@ -17,23 +25,39 @@
             {
                 "stepId": "STEP2",
                 "stepName": "Url: Catalog.action",
-                "infFile": "t2.inf",
-                "time": 1692629553162
+                "infFile": "t3.inf",
+                "time": 1692716544871
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_02_click_store",
+                "rawStartTime": 1692716543854,
+                "rawEndTime": 1692716544882,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02045893669128418
+            }
+        ]
     },
     {
         "actionName": "TC_03_click_sigin_link",
         "steps": [
             {
                 "stepId": "STEP3",
-                "stepName": "Url: Account.action;jsessionid=373541FDAA6FA4D360035D9893FD4AD7",
-                "infFile": "t3.inf",
-                "time": 1692629553658
+                "stepName": "Url: Account.action;jsessionid={jsessionid}",
+                "infFile": "t4.inf",
+                "time": 1692716545517
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_03_click_sigin_link",
+                "rawStartTime": 1692716545149,
+                "rawEndTime": 1692716545520,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010868072509765625
+            }
+        ]
     },
     {
         "actionName": "TC_04_enter_sigin_credentails",
@@ -41,11 +65,19 @@
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Data: Account.action",
-                "infFile": "t4.inf",
-                "time": 1692629554988
+                "infFile": "t6.inf",
+                "time": 1692716546640
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_04_enter_sigin_credentails",
+                "rawStartTime": 1692716545783,
+                "rawEndTime": 1692716546685,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014567136764526368
+            }
+        ]
     },
     {
         "actionName": "TC_05_select_pets",
@@ -53,11 +85,19 @@
             {
                 "stepId": "STEP5",
                 "stepName": "Url: Catalog.action_2",
-                "infFile": "t5.inf",
-                "time": 1692629555617
+                "infFile": "t7.inf",
+                "time": 1692716547358
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_05_select_pets",
+                "rawStartTime": 1692716546968,
+                "rawEndTime": 1692716547402,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007920980453491211
+            }
+        ]
     },
     {
         "actionName": "TC_06_enter_pet_name",
@@ -65,11 +105,19 @@
             {
                 "stepId": "STEP6",
                 "stepName": "Submit Data: Catalog.action_3",
-                "infFile": "t6.inf",
-                "time": 1692629557019
+                "infFile": "t9.inf",
+                "time": 1692716548275
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_06_enter_pet_name",
+                "rawStartTime": 1692716547606,
+                "rawEndTime": 1692716548295,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011400699615478516
+            }
+        ]
     },
     {
         "actionName": "TC_07_click_product_id",
@@ -77,11 +125,19 @@
             {
                 "stepId": "STEP7",
                 "stepName": "Url: Catalog.action_4",
-                "infFile": "t7.inf",
-                "time": 1692629557656
+                "infFile": "t10.inf",
+                "time": 1692716548895
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_07_click_product_id",
+                "rawStartTime": 1692716548558,
+                "rawEndTime": 1692716548931,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0052356719970703129
+            }
+        ]
     },
     {
         "actionName": "TC_08_select_item_id",
@@ -89,11 +145,19 @@
             {
                 "stepId": "STEP8",
                 "stepName": "Url: Catalog.action_5",
-                "infFile": "t8.inf",
-                "time": 1692629558183
+                "infFile": "t11.inf",
+                "time": 1692716549442
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_08_select_item_id",
+                "rawStartTime": 1692716549135,
+                "rawEndTime": 1692716549446,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004354715347290039
+            }
+        ]
     },
     {
         "actionName": "TC_09_click_add_to_cart_button",
@@ -101,11 +165,19 @@
             {
                 "stepId": "STEP9",
                 "stepName": "Url: Cart.action",
-                "infFile": "t9.inf",
-                "time": 1692629559075
+                "infFile": "t12.inf",
+                "time": 1692716550059
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_09_click_add_to_cart_button",
+                "rawStartTime": 1692716549727,
+                "rawEndTime": 1692716550070,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005623817443847656
+            }
+        ]
     },
     {
         "actionName": "TC_10_click_proceed_to_checkout_button",
@@ -113,11 +185,19 @@
             {
                 "stepId": "STEP10",
                 "stepName": "Url: Order.action",
-                "infFile": "t10.inf",
-                "time": 1692629559972
+                "infFile": "t13.inf",
+                "time": 1692716550694
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_10_click_proceed_to_checkout_button",
+                "rawStartTime": 1692716550350,
+                "rawEndTime": 1692716550708,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006658315658569336
+            }
+        ]
     },
     {
         "actionName": "TC_11_enter_payment_details",
@@ -125,11 +205,19 @@
             {
                 "stepId": "STEP11",
                 "stepName": "Submit Data: Order.action_2",
-                "infFile": "t11.inf",
-                "time": 1692629560777
+                "infFile": "t14.inf",
+                "time": 1692716551506
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_11_enter_payment_details",
+                "rawStartTime": 1692716550973,
+                "rawEndTime": 1692716551523,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005670785903930664
+            }
+        ]
     },
     {
         "actionName": "TC_12_click_confirm_button",
@@ -137,11 +225,19 @@
             {
                 "stepId": "STEP12",
                 "stepName": "Url: Order.action_3",
-                "infFile": "t12.inf",
-                "time": 1692629561592
+                "infFile": "t15.inf",
+                "time": 1692716552092
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_12_click_confirm_button",
+                "rawStartTime": 1692716551772,
+                "rawEndTime": 1692716552101,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00520777702331543
+            }
+        ]
     },
     {
         "actionName": "TC_13_click_signout_link",
@@ -149,10 +245,18 @@
             {
                 "stepId": "STEP13",
                 "stepName": "Url: Account.action_2",
-                "infFile": "t13.inf",
-                "time": 1692629562414
+                "infFile": "t16.inf",
+                "time": 1692716552854
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "TC_12_click_confirm_button",
+                "rawStartTime": 1692716552351,
+                "rawEndTime": 1692716552865,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0062258243560791019
+            }
+        ]
     }
 ]
